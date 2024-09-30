@@ -31,7 +31,7 @@
                     <div class="for-group">
                         <label for="ExampleInputPassword1">Lat.:</label>
                         <asp:TextBox ID="txtLat" Text="27.371872886250113" CssClass="form-control" runat="server"></asp:TextBox>
-                        <label for="ExampleInputPassword1">Lat.:</label>
+                        <label for="ExampleInputPassword1">Long.:</label>
                         <asp:TextBox ID="txtLong" Text="-109.93098791787901" CssClass="form-control" runat="server"></asp:TextBox>
                     </div>
                     <!--Controles de altas, bajas y cambios-->
