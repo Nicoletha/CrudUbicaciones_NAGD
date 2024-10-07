@@ -76,7 +76,7 @@ namespace CrudUbicaciones_NAGD
             }
         }
 
-        protected void btnEliminar_Click(object sender, EventArgs e)
+        protected void EliminarRegistro(object sender, EventArgs e)
         {
             oUbicacionesDAL = new ubicaciones_DAL();
 
@@ -86,6 +86,5 @@ namespace CrudUbicaciones_NAGD
             oUbicacionesDAL.Eliminar(ubicacionID);
             ListarUbicaciones(); // Para actualizar el GridView después de eliminar
         }
-
     }
 }
