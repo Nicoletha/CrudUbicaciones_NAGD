@@ -79,12 +79,9 @@ namespace CrudUbicaciones_NAGD
         protected void EliminarRegistro(object sender, EventArgs e)
         {
             oUbicacionesDAL = new ubicaciones_DAL();
-
-            // Pasar solo el ID para eliminar el registro
             int ubicacionID = datosUbicacion().ID;
-
             oUbicacionesDAL.Eliminar(ubicacionID);
-            ListarUbicaciones(); // Para actualizar el GridView después de eliminar
+            ListarUbicaciones(); 
         }
     }
 }
