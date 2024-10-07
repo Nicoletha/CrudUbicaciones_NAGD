@@ -11,7 +11,7 @@ namespace CrudUbicaciones_NAGD
 {
 
 
-    public partial class WebForm1
+    public partial class frmUbicaciones
     {
 
         /// <summary>
@@ -30,7 +30,7 @@ namespace CrudUbicaciones_NAGD
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.PlaceHolder txtID;
+        protected global::System.Web.UI.WebControls.HiddenField txtID;
 
         /// <summary>
         /// Control txtUbicacion.
@@ -69,13 +69,13 @@ namespace CrudUbicaciones_NAGD
         protected global::System.Web.UI.WebControls.Button btnAgregar;
 
         /// <summary>
-        /// Control btnModificar.
+        /// Control btModificar.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnModificar;
+        protected global::System.Web.UI.WebControls.Button btModificar;
 
         /// <summary>
         /// Control btnEliminar.
@@ -94,5 +94,14 @@ namespace CrudUbicaciones_NAGD
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnLimpiar;
+
+        /// <summary>
+        /// Control gvUbicaciones.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView gvUbicaciones;
     }
 }
